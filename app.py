@@ -5,7 +5,9 @@ import random
 
 app = Flask(__name__)
 
+# route
 @app.route('/')
+# view function
 def home():
     return "Hello world"
 
